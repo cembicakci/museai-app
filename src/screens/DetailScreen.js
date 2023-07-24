@@ -10,7 +10,7 @@ import { SpeakerIcon } from '../../assets/svg'
 
 import { Audio } from 'expo-av';
 
-const { width, height } = Dimensions.get('screen')
+const { width, height } = Dimensions.get('window')
 
 const DetailScreen = ({ route }) => {
 

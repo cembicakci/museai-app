@@ -3,7 +3,7 @@ import axios from 'axios'
 const Network = class NETWORK {
     constructor(axios) {
         this.network = axios.create({
-            baseURL: 'http://10.0.10.45:8058/museai/'
+            baseURL: 'http://localhost:8058/museai/'
         })
     }
 
